@@ -30,8 +30,8 @@ ThemeData zulipThemeData(BuildContext context) {
       themeExtensions = [
         ContentTheme.light(context),
         designVariables,
-        EmojiReactionTheme.light(),
-        MessageListTheme.light(),
+        EmojiReactionTheme.light,
+        MessageListTheme.light,
       ];
     }
     case Brightness.dark: {
@@ -39,8 +39,8 @@ ThemeData zulipThemeData(BuildContext context) {
       themeExtensions = [
         ContentTheme.dark(context),
         designVariables,
-        EmojiReactionTheme.dark(),
-        MessageListTheme.dark(),
+        EmojiReactionTheme.dark,
+        MessageListTheme.dark,
       ];
     }
   }
